@@ -40,7 +40,7 @@ function addDestinationInfo(document, name, diameter, star, distance, imageUrl, 
     if(isNaN(input.value)){return 'Not a Number'}
     return 'Is a Number'
  }
-
+//forgot to enable workflows
  function formSubmission(document, pilot, copilot, fuelLevel, cargoLevel) {
     
     let form = document.querySelector('form')
